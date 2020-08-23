@@ -1,0 +1,9 @@
+# default values for blocks
+
+# block definitions
+bdef symbol:z hit_points:3 height:60 width:30 fill-3:image(block_images/wight_block.png) fill-2:image(block_images/wight_block_2.png) fill-1:image(block_images/wight_block_3.png)
+bdef symbol:w hit_points:5 height:80 width:50 fill-5:image(block_images/white_walker_block.png) fill-4:image(block_images/white_walker_block_2.png) fill-3:image(block_images/white_walker_block_3.png) fill-2:image(block_images/white_walker_block_4.png) fill-1:image(block_images/white_walker_block_5.png)
+
+# spacers definitions
+sdef symbol:- width:30
+sdef symbol:~ width:10

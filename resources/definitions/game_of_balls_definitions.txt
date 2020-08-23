@@ -1,0 +1,125 @@
+
+# Level 1
+
+START_LEVEL
+level_name:The Iron Fleet
+ball_velocities:60,5 70,5 72,5 -60,5 -70,5 -72,5
+background:image(background_images/iron_fleet_background.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/the_iron_fleet_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:30
+num_blocks:24
+START_BLOCKS
+~---pf
+-
+-
+-
+-
+~-s------s
+~-s------s
+~-sss--sss
+~--ssssss
+~--ssssss
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+
+START_LEVEL
+level_name:Kings Landing
+ball_velocities:65,5 -20,5
+background:image(background_images/kings_landing_background.jpg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/kings_landing_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:50
+num_blocks:24
+START_BLOCKS
+--r---r
+--hh---hh
+--hh---hh
+--hh---hh
+--sds---sds
+--s--s---s--s
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+
+START_LEVEL
+level_name:For The Throne
+ball_velocities:20,5
+background:image(background_images/for_the_throne_background.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/for_the_throne_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:40
+num_blocks:15
+START_BLOCKS
+-
+---~%t%
+---~h%%h
+---~h%%h
+---~h%%h
+---~h%%h
+-~hhhhhh
+END_BLOCKS
+END_LEVEL
+
+
+# Level 4
+
+START_LEVEL
+level_name:Army Of The Dead
+ball_velocities:-47,5 21,5 72,5
+background:image(background_images/army_of_the_dead_background.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/white_walkers_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:60
+num_blocks:30
+START_BLOCKS
+----z-w--w--w--w-z
+--z-------------------z
+----z---z---z---z---z
+--z---z---z---z---z---z
+----z---z---z---z---z
+--z---z---z---z---z---z
+END_BLOCKS
+END_LEVEL
+
+
+# Level 5
+
+START_LEVEL
+level_name:The Night King
+ball_velocities:30,6
+background:image(background_images/the_night_king_background.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/the_night_king_definitions.txt
+blocks_start_x:25
+blocks_start_y:100
+row_height:44
+num_blocks:25
+START_BLOCKS
+-ccccccc
+-cnc
+-c~~~~~c
+-c~~~~~c
+-c~~~~~c
+-c~~~~~c
+-ccccccc
+END_BLOCKS
+END_LEVEL

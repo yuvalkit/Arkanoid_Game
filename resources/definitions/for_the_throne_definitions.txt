@@ -1,0 +1,10 @@
+# default values for blocks
+
+# block definitions
+bdef symbol:t hit_points:3 height:200 width:200 fill-3:image(block_images/iron_throne.png) fill-2:image(block_images/iron_throne2.png) fill-1:image(block_images/iron_throne4.png)
+bdef symbol:h height:40 width:100 hit_points:2 fill-2:image(block_images/red_wall.png) fill-1:image(block_images/broken_red_wall.png)
+
+# spacers definitions
+sdef symbol:% width:100
+sdef symbol:- width:50
+sdef symbol:~ width:25

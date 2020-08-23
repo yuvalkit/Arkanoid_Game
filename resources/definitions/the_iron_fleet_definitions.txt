@@ -1,0 +1,11 @@
+# there are no default values for the blocks
+
+
+# block definitions
+bdef symbol:s hit_points:2 width:70 height:30 fill-1:image(block_images/destoryed_ship_texture.jpg) fill-2:image(block_images/ship_texture.jpg)
+bdef symbol:p hit_points:3 width:30 height:210 fill-3:image(block_images/boat_pole.png) fill-2:image(block_images/destroyed_boat_pole.png) fill-1:image(block_images/very_destroyed_boat_pole.png)
+bdef symbol:f hit_points:1 width:250 height:150 fill:image(block_images/boat_flag.jpg)
+
+# spacers definitions
+sdef symbol:- width:70
+sdef symbol:~ width:30

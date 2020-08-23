@@ -1,0 +1,12 @@
+# default values for blocks
+default height:50 width:100 hit_points:2
+
+# block definitions
+bdef symbol:h fill-2:image(block_images/long_house.png) fill-1:image(block_images/broken_long_house.png)
+bdef symbol:s width:50 fill-2:image(block_images/short_house.png) fill-1:image(block_images/broken_short_house.png)
+bdef symbol:r width:200 fill-2:image(block_images/house_roof.png) fill-1:image(block_images/broken_house_roof.png)
+bdef symbol:d height:100 fill-2:image(block_images/house_door.png) fill-1:image(block_images/broken_house_door.png)
+
+
+# spacers definitions
+sdef symbol:- width:50

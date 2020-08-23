@@ -1,0 +1,9 @@
+# default values for blocks
+
+# block definitions
+bdef symbol:n hit_points:11 height:220 width:220 fill-11:image(block_images/night_king_11.png) fill-10:image(block_images/night_king_10.png) fill-9:image(block_images/night_king_9.png) fill-8:image(block_images/night_king_8.png) fill-7:image(block_images/night_king_7.png) fill-6:image(block_images/night_king_6.png) fill-5:image(block_images/night_king_5.png) fill-4:image(block_images/night_king_4.png) fill-3:image(block_images/night_king_3.png) fill-2:image(block_images/night_king_2.png) fill-1:image(block_images/night_king_1.png)
+bdef symbol:c hit_points:2 height:44 width:44 fill-2:image(block_images/ice_cube_1.png) fill-1:image(block_images/ice_cube_2.png)
+
+# spacers definitions
+sdef symbol:- width:220
+sdef symbol:~ width:44
